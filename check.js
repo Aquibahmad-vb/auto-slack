@@ -53,7 +53,7 @@ const names=[];const work=[]
                     finddob().then(users=>{
                         users.map(user=>{
                             // const res= request({
-                            //     url:"https://hooks.slack.com/services/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",
+                            //     url:"https:
                             //     method:"POST",
                             //     body:{"text":`Happy Birthday to ${user.empName} from ${user.empReportingManager}`},
                             //     json:true
@@ -68,7 +68,7 @@ const names=[];const work=[]
                     findworkanniversary().then(work_anniversary=>{
                         work_anniversary.map(i=>{
                             // const res= request({
-                            //     url:"https://hooks.slack.com/services/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",
+                            //     url:"https
                             //     method:"POST",
                             //     body:{"text":`work anniversary to ${i.empName} from ${i.empReportingManager}`},
                             //     json:true
